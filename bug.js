@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  After selecting a file, the promise returned by DocumentPicker.getDocumentAsync() sometimes rejects with an error that doesn't provide a useful error message, leaving developers unable to understand or handle the issue. The error is often a generic 'Promise rejection'.
